@@ -16,7 +16,7 @@ export default function Navigation() {
     return (
         <div className="my-3">
             <Router>
-                <Navbar className="navbar bg-light justify-content-center">
+                <Navbar className="navbar bg-light justify-content-center py-3">
                     <div className="nav">
                         <ul className="navbar-nav lead">
                             <NavLink className="nav-item  mx-3 text-decoration-none h4"
