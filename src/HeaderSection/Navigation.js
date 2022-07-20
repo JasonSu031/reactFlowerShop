@@ -20,7 +20,7 @@ export default function Navigation() {
                     <div className="nav">
                         <ul className="navbar-nav lead">
                             <NavLink className="nav-item  mx-3 text-decoration-none h4"
-                                to="home"
+                                to="/"
                                 style={({ isActive }) => ({
                                     color: isActive ? '#000000' : '#838383',
                                     //fontWeight: isActive? 'bold':'normal',
@@ -56,7 +56,7 @@ export default function Navigation() {
                     </div>
                 </Navbar>
                 <Routes>
-                    <Route path="home" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route path="search" element={<Search />} />
                     <Route path="design" element={<Design />} />
                     <Route path="contact" element={<Contact/>} />

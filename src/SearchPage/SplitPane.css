@@ -1,15 +1,9 @@
-
-
-.left{
-    border-style:solid;
-    width:40%;
-    height:100%;
+.left1{
+    width:34%;
     float:left;
 }
 
-.right{
-    border-style:solid;
-    width:60%;
-    height:100%;
+.right1{
+    width:66%;
     float:right;
 }

@@ -1,11 +1,14 @@
-import './SplitPane.css'
+import './SplitPane.css';
 
 export default function SplitPane({left, right}){
     return(
-        <div className = "main">
-            <div className = "left">{left}</div>
-            <div className = "right">{right}</div>
+        <div className = "parent1">
+            <div className ="left1">
+                {left}
+            </div>
+            <div className ="right1">
+                {right}
+            </div>
         </div>
-        
     );
 }
