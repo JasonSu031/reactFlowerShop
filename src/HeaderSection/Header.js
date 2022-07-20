@@ -1,10 +1,10 @@
-import HeaderImg from './HeaderImg';
+import Logo from './Logo';
 import Navigation from './Navigation';
 
 export default function Headers(){
     return(
         <div>
-            <HeaderImg/>
+            <Logo/>
             <Navigation/>
         </div>
         

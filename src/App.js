@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Home';
+import Header from './HeaderSection/Header';
 import React, { useEffect } from 'react';
 
 <link
@@ -16,7 +16,10 @@ function App() {
     document.title = 'Flower Shop';
   });
   return (
-    <Home />
+    <div>
+      <Header/>
+    </div>
+    
   );
 }
 
