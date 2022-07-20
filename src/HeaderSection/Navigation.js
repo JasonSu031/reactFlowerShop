@@ -14,6 +14,9 @@ import Home from '../HomePage/Home';
 import Search from '../SearchPage/Search';
 import Design from '../DesignPage/Design';
 import Contact from '../ContactPage/Contact';
+import Cart from '../Wishlist/Cart';
+import Login from '../Profile/Login';
+import SignUp from '../Profile/SignUp';
 
 export default function Navigation() {
     return (
@@ -35,6 +38,9 @@ export default function Navigation() {
                     <Route path="search" element={<Search />} />
                     <Route path="design" element={<Design />} />
                     <Route path="contact" element={<Contact />} />
+                    <Route path="cart" element={<Cart />} />
+                    <Route path="login" element={<Login />} />
+                    <Route path="signup" element={<SignUp/>} />
                 </Routes>
             </Router>
         </div>
