@@ -14,7 +14,7 @@ export default function SearchRow() {
             <Container fluid>
                     <Row>
                         <Col xs = {4} className="d-flex justify-content-center"></Col>
-                        <Col xs = {4} >
+                        <Col xs = {5} >
                             <Form>
                                 <Form.Group className ="parent">
                                     <SearchSplit left = {<Form.Control type = "text" placeholder = "Search by name" className ="d-inline rRad"/>} right = {<Button variant = "light" type = "submit" className = "btn-outline-secondary d-inline lRad"><Search className = "d-block m-auto my-1"/></Button>}/>

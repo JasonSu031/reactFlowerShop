@@ -1,0 +1,18 @@
+.rightAlign{
+    width:100%;
+    display:flex;
+}
+
+.larger1 {
+    width: 110% !important;
+    height: 110% !important;
+    background-size: 100% !important;
+    background-position: 0px 0px;
+  }
+
+  .larger2 {
+    width: 15% !important;
+    height: 12% !important;
+    background-size: 100% !important;
+    background-position: 0px 0px;
+  }
