@@ -4,13 +4,15 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import SplitFifty from './SplitFifty';
-import ChkSplit from './ChkSplit.js';
+import ChkSplit from './ChkSplit';
+import CreateBlank from './CreateBlank';
+
 import './Filter.css';
 
 export default function Filter() {
     return (
         <div>
-            <Container>
+            <Container >
                 <Row>
                     <Form>
                         <Form.Group className="bg-light border me-3 rounded-3">
@@ -35,6 +37,7 @@ export default function Filter() {
                             </Form.Select>
                             <p></p>
                             <Button className = "mx-auto d-block m-4 rounded-3 btn-secondary">Apply Filter</Button>
+                            <CreateBlank/>
                         </Form.Group>
                     </Form>
 

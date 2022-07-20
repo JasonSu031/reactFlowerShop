@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/button';
 
 export default function FlowerCard({img, name, dsc}) {
     return (
-        <div>
+        <div className = "m-3">
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={img}/>
                 <Card.Body>

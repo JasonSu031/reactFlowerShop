@@ -16,7 +16,7 @@ function App() {
     document.title = 'Flower Shop';
   });
   return (
-    <div>
+    <div id = "app">
       <Header/>
     </div>
     
