@@ -33,6 +33,8 @@ export default function Filter() {
                                 <option>In-Store</option>
                                 <option>Unavailable</option>
                             </Form.Select>
+                            <p></p>
+                            <Button className = "mx-auto d-block m-4 rounded-3 btn-secondary">Apply Filter</Button>
                         </Form.Group>
                     </Form>
 

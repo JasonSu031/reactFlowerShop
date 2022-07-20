@@ -5,6 +5,9 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import SearchSplit from './SearchSplit';
 
+import {Search} from 'react-bootstrap-icons';
+import './SearchRow.css';
+
 export default function SearchRow() {
     return (
         <div>
@@ -14,7 +17,7 @@ export default function SearchRow() {
                         <Col xs = {4} >
                             <Form>
                                 <Form.Group className ="parent">
-                                    <SearchSplit left = {<Form.Control type = "text" placeholder = "Search by name" className ="d-inline"/>} right = {<Button variant = "light" type = "submit" className = "btn-outline-secondary d-inline">Search</Button>}/>
+                                    <SearchSplit left = {<Form.Control type = "text" placeholder = "Search by name" className ="d-inline rRad"/>} right = {<Button variant = "light" type = "submit" className = "btn-outline-secondary d-inline lRad"><Search className = "d-block m-auto my-1"/></Button>}/>
                                 </Form.Group>
                             </Form>
                             
