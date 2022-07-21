@@ -31,7 +31,7 @@ export default function Design(){
                         <Form.Control as = "textarea">
                         </Form.Control>
                         <br/>
-                        <Link to = "/success" className = "text-decoration-none" state = {{status:"Submission"}}>
+                        <Link to = "/reactFlowerShop/success" className = "text-decoration-none" state = {{status:"Submission"}}>
                             <Button variant = "success" className = "py-1 my-4 d-block mx-auto">Submit</Button>
                         </Link>
                     </Col>

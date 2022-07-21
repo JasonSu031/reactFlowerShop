@@ -10,7 +10,7 @@ export default function StoreNav() {
                 <div className="nav">
                     <ul className="navbar-nav lead">
                         <NavLink className="nav-item  mx-3 text-decoration-none h4"
-                            to="/"
+                            to="/reactFlowerShop/"
                             style={({ isActive }) => ({
                                 color: isActive ? '#000000' : '#838383',
                                 //fontWeight: isActive? 'bold':'normal',
@@ -19,7 +19,7 @@ export default function StoreNav() {
                             Home
                         </NavLink>
                         <NavLink className="nav-item  mx-3 text-decoration-none h4"
-                            to="search"
+                            to="/reactFlowerShop/search"
                             style={({ isActive }) => ({
                                 color: isActive ? '#000000' : '#838383',
                             })}
@@ -27,7 +27,7 @@ export default function StoreNav() {
                             Search
                         </NavLink>
                         <NavLink className="nav-item  mx-3 text-decoration-none h4"
-                            to="design"
+                            to="/reactFlowerShop/design"
                             style={({ isActive }) => ({
                                 color: isActive ? '#000000' : '#838383',
                             })}
@@ -35,7 +35,7 @@ export default function StoreNav() {
                             Design
                         </NavLink>
                         <NavLink className="nav-item  mx-3 text-decoration-none h4"
-                            to="contact"
+                            to="/reactFlowerShop/contact"
                             style={({ isActive }) => ({
                                 color: isActive ? '#000000' : '#838383',
                             })}

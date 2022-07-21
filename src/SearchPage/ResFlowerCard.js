@@ -12,7 +12,7 @@ export default function ResFlowerCard({image, name, dsc, price}) {
                     <Card.Text className = "d-flex justify-content-center">
                         Price: {price}
                     </Card.Text>
-                    <Link to = "/details" className = "text-decoration-none" state = {{cardImg:image, cardName:name, cardDsc:dsc, cardPrice:price}}>
+                    <Link to = "/reactFlowerShop/details" className = "text-decoration-none" state = {{cardImg:image, cardName:name, cardDsc:dsc, cardPrice:price}}>
                         <Button className = "d-block m-auto" variant="light">View this flower</Button>
                     </Link>
                 </Card.Body>

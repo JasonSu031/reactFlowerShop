@@ -10,7 +10,7 @@ export default function Success(){
     return(
         <div>
             <h4 className = "centerText mt-5">{status} Successful!</h4>
-            <Link to = "/" className = "text-decoration-none">
+            <Link to = "/reactFlowerShop/" className = "text-decoration-none">
                 <Button variant = "success" className = "py-1 my-4 d-block mx-auto">Go to Home</Button>
             </Link>
         </div>

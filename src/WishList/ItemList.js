@@ -9,7 +9,7 @@ export default function ItemList(){
             <Item/>
             <Item/>
             <Item/>
-            <Link to = "/success" className = "text-decoration-none" state = {{status:"Purchase"}}>
+            <Link to = "/reactFlowerShop/success" className = "text-decoration-none" state = {{status:"Purchase"}}>
                 <Button variant = "success" className = "buyBtn mx-auto d-block mt-3"><h6>Buy</h6></Button>
             </Link>
         </div>

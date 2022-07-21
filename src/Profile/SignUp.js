@@ -26,7 +26,7 @@ export default function SignUp(){
                         </Form.Label>
                         <Form.Control type="text" placeholder="Enter Password" />
 
-                        <Link to = "/success" className = "text-decoration-none" state = {{status:"Sign Up"}}>
+                        <Link to = "/reactFlowerShop/success" className = "text-decoration-none" state = {{status:"Sign Up"}}>
                             <Button variant = "success" className = "py-1 my-4 d-block mx-auto">Sign Up</Button>
                         </Link>
                         

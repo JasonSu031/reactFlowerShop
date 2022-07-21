@@ -37,15 +37,15 @@ export default function Navigation() {
                 </Container>
                 <Routes>
                     <Route path="/reactFlowerShop/" element={<Home />} />
-                    <Route path="/reactFlowerShop//search" element={<Search />} />
-                    <Route path="/reactFlowerShop//design" element={<Design />} />
-                    <Route path="/reactFlowerShop//contact" element={<Contact />} />
-                    <Route path="/reactFlowerShop//cart" element={<Cart />} />
-                    <Route path="/reactFlowerShop//login" element={<Login />} />
-                    <Route path="/reactFlowerShop//signup" element={<SignUp/>} />
-                    <Route path="/reactFlowerShop//details" element={<Detail/>} />
-                    <Route path="/reactFlowerShop//wishlist" element={<Cart/>} />
-                    <Route path = "/reactFlowerShop//success" element = {<Success/>}/>
+                    <Route path="/reactFlowerShop/search" element={<Search />} />
+                    <Route path="/reactFlowerShop/design" element={<Design />} />
+                    <Route path="/reactFlowerShop/contact" element={<Contact />} />
+                    <Route path="/reactFlowerShop/cart" element={<Cart />} />
+                    <Route path="/reactFlowerShop/login" element={<Login />} />
+                    <Route path="/reactFlowerShop/signup" element={<SignUp/>} />
+                    <Route path="/reactFlowerShop/details" element={<Detail/>} />
+                    <Route path="/reactFlowerShop/wishlist" element={<Cart/>} />
+                    <Route path = "/reactFlowerShop/success" element = {<Success/>}/>
                 </Routes>
             </Router>
         </div>

@@ -14,7 +14,6 @@ export default function Cart(){
                     <ItemList/>
                 </Row>
             </Container>
-            
 
         </div>
     );

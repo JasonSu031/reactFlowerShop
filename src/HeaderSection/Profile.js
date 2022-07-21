@@ -9,7 +9,7 @@ export default function Profile() {
     const cart = "/assets/cart.png";
     return (
         <div className="d-flex justify-content-end mt-2 ">
-            <NavLink to="cart" className="d-flex justify-content-end">
+            <NavLink to="/reactFlowerShop/cart" className="d-flex justify-content-end">
                 <img src={process.env.PUBLIC_URL + `${cart}`} className="larger2 my-2 me-3" />
             </NavLink>
 
@@ -19,8 +19,8 @@ export default function Profile() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item as={Link} to="login">Login</Dropdown.Item>
-                    <Dropdown.Item as={Link} to="signup">Sign Up</Dropdown.Item>
+                    <Dropdown.Item as={Link} to="/reactFlowerShop/login">Login</Dropdown.Item>
+                    <Dropdown.Item as={Link} to="/reactFlowerShop/signup">Sign Up</Dropdown.Item>
                 </Dropdown.Menu>
                 
             </Dropdown>
