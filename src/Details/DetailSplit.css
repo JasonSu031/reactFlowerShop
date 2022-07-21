@@ -1,0 +1,11 @@
+
+
+.detailLeft{
+    float:left;
+    width:45%;
+}
+
+.detailRight{
+    float:right;
+    width:55%;
+}
