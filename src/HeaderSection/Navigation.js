@@ -19,6 +19,7 @@ import Login from '../Profile/Login';
 import SignUp from '../Profile/SignUp';
 import Detail from '../Details/Detail';
 import Success from '../Profile/Success';
+import NotFound from './NotFound';
 
 export default function Navigation() {
     return (
@@ -46,6 +47,7 @@ export default function Navigation() {
                     <Route path="/reactFlowerShop/details" element={<Detail/>} />
                     <Route path="/reactFlowerShop/wishlist" element={<Cart/>} />
                     <Route path = "/reactFlowerShop/success" element = {<Success/>}/>
+                    <Route path = "/*" element = {<NotFound/>}/>
                 </Routes>
             </Router>
         </div>

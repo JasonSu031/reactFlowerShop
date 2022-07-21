@@ -4,17 +4,15 @@
 }
 
 .larger1 {
-    width: 250% !important;
-    height: 250% !important;
+    width: 100% !important;
+    height: 100% !important;
     background-size: 100% !important;
     background-position: 0px 0px;
   }
 
   .larger2 {
-    width: 20% !important;
-    height: 65% !important;
+    width: 150% !important;
+    height: 150% !important;
     background-size: 100% !important;
     background-position: 0px 0px;
-    display:flex;
-    align-items:center;
   }
