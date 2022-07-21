@@ -11,7 +11,7 @@ export default function HeaderImg(){
                     <Col>
                     </Col>
                     <Col>
-                        <img src = {logo} alt ="Logo" className="mx-auto d-block" style={{width:"75%"}}/>
+                        <img src = {process.env.PUBLIC_URL + `${logo}`} alt ="Logo" className="mx-auto d-block" style={{width:"75%"}}/>
                     </Col>
                     <Col>
                     </Col>

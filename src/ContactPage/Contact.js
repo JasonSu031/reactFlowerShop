@@ -8,6 +8,7 @@ import {GeoAltFill} from 'react-bootstrap-icons';
 import {ClockFill} from 'react-bootstrap-icons';
 
 export default function Contact(){
+    const admin = "/assets/admin.png";
     return(
         <div className = "my-5">
             <Container>
@@ -15,7 +16,7 @@ export default function Contact(){
                     <Col xs = {3}>
                     </Col>
                     <Col xs = {3} className = "border">
-                        <img className = "img-fluid img-responsive" src = "/assets/admin.png"></img>
+                        <img className = "img-fluid img-responsive" src = {process.env.PUBLIC_URL + `${admin}`}></img>
                     </Col>
                     <Col  xs = {4} className = "border centerText bg-light">
                         <br/>

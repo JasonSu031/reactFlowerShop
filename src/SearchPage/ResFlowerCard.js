@@ -10,10 +10,10 @@ export default function ResFlowerCard({image, name, dsc, price}) {
                 <Card.Body>
                     <Card.Title className = "d-flex justify-content-center">{name}</Card.Title>
                     <Card.Text className = "d-flex justify-content-center">
-                        {price}
+                        Price: {price}
                     </Card.Text>
                     <Link to = "/details" className = "text-decoration-none" state = {{cardImg:image, cardName:name, cardDsc:dsc, cardPrice:price}}>
-                        <Button className = "d-block m-auto" variant="success">See this flower</Button>
+                        <Button className = "d-block m-auto" variant="light">View this flower</Button>
                     </Link>
                 </Card.Body>
             </Card>

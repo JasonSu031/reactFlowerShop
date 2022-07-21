@@ -10,7 +10,7 @@ export default function Profile() {
     return (
         <div className="d-flex justify-content-end mt-2 ">
             <NavLink to="cart" className="d-flex justify-content-end">
-                <img src={cart} className="larger2 my-2 me-3" />
+                <img src={process.env.PUBLIC_URL + `${cart}`} className="larger2 my-2 me-3" />
             </NavLink>
 
             <Dropdown className="me-4">

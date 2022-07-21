@@ -18,6 +18,7 @@ export default function Detail(){
     const {cardName} = location.state;
     const {cardDsc} = location.state;
     const {cardPrice} = location.state;
+    
     return(
         <div>
             <h4 className = "centerText py-2">Flower Information</h4>

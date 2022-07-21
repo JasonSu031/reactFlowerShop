@@ -36,16 +36,16 @@ export default function Navigation() {
                     </Row>
                 </Container>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/search" element={<Search />} />
-                    <Route path="/design" element={<Design />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/cart" element={<Cart />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/signup" element={<SignUp/>} />
-                    <Route path="/details" element={<Detail/>} />
-                    <Route path="/wishlist" element={<Cart/>} />
-                    <Route path = "/success" element = {<Success/>}/>
+                    <Route path="/reactFlowerShop/" element={<Home />} />
+                    <Route path="/reactFlowerShop//search" element={<Search />} />
+                    <Route path="/reactFlowerShop//design" element={<Design />} />
+                    <Route path="/reactFlowerShop//contact" element={<Contact />} />
+                    <Route path="/reactFlowerShop//cart" element={<Cart />} />
+                    <Route path="/reactFlowerShop//login" element={<Login />} />
+                    <Route path="/reactFlowerShop//signup" element={<SignUp/>} />
+                    <Route path="/reactFlowerShop//details" element={<Detail/>} />
+                    <Route path="/reactFlowerShop//wishlist" element={<Cart/>} />
+                    <Route path = "/reactFlowerShop//success" element = {<Success/>}/>
                 </Routes>
             </Router>
         </div>
