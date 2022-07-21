@@ -8,7 +8,7 @@ export default function ItemList(){
             <Item/>
             <Item/>
             <Item/>
-            <Button variant = "success" className = "buyBtn mx-auto d-block mt-3">Buy</Button>
+            <Button variant = "success" className = "buyBtn mx-auto d-block mt-3"><h6>Buy</h6></Button>
         </div>
     );
 }
