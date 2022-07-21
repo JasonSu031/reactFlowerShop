@@ -1,27 +1,27 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import rose from '../assets/rose.jpg';
 import ResFlowerCard from './ResFlowerCard';
 
 
 export default function Results(){
+    const rose = "/assets/rose.jpg";
     return (
         <div className = "border mb-5">
             <Container>
                 <Row>
-                    <Col xs = {3}><ResFlowerCard img = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard img = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard img = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
                 </Row>
                 <Row>
-                    <Col xs = {3}><ResFlowerCard img = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard img = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard img = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
                 </Row>
                 <Row>
                     <Col></Col>

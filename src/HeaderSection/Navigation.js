@@ -17,6 +17,7 @@ import Contact from '../ContactPage/Contact';
 import Cart from '../Wishlist/Cart';
 import Login from '../Profile/Login';
 import SignUp from '../Profile/SignUp';
+import Detail from '../Details/Detail';
 
 export default function Navigation() {
     return (
@@ -41,6 +42,8 @@ export default function Navigation() {
                     <Route path="cart" element={<Cart />} />
                     <Route path="login" element={<Login />} />
                     <Route path="signup" element={<SignUp/>} />
+                    <Route path="details" element={<Detail/>} />
+                    <Route path="/search/details" element={<Detail/>} />
                 </Routes>
             </Router>
         </div>
