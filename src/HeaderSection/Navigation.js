@@ -42,7 +42,8 @@ export default function Navigation() {
                     <Route path="cart" element={<Cart />} />
                     <Route path="login" element={<Login />} />
                     <Route path="signup" element={<SignUp/>} />
-                    <Route path="/search/details" element={<Detail/>} />
+                    <Route path="/details" element={<Detail/>} />
+                    <Route path="/wishlist" element={<Cart/>} />
                 </Routes>
             </Router>
         </div>

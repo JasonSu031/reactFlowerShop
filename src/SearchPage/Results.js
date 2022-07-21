@@ -10,18 +10,18 @@ export default function Results(){
         <div className = "border mb-5">
             <Container>
                 <Row>
-                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower" price = "$10"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower" price = "$10"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower" price = "$10"/></Col>
                 </Row>
                 <Row>
-                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower" price = "$10"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower" price = "$10"/></Col>
                     <Col xs={1}/>
-                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower"/></Col>
+                    <Col xs = {3}><ResFlowerCard image = {rose} name = "Rosa" dsc = "Sample Flower" price = "$10"/></Col>
                 </Row>
                 <Row>
                     <Col></Col>

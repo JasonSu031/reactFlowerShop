@@ -13,15 +13,15 @@ export default function PopularList(){
                     <Col className ="m-auto d-block">
                         <Row>
                             <Col className = "d-flex justify-content-center">
-                                <FlowerCard img = {rose} name = {"Rosa"} dsc = {"This is a sample flower"}/>
+                                <FlowerCard img = {rose} name = {"Rosa"} dsc = {"This is a sample flower"} price = "$10"/>
                             </Col>
                             <Col xs={1}/>
                             <Col className = "d-flex justify-content-center">
-                                <FlowerCard img = {rose} name = {"Rosa"} dsc = {"This is a sample flower"}/>
+                                <FlowerCard img = {rose} name = {"Rosa"} dsc = {"This is a sample flower"} price = "$10"/>
                             </Col>
                             <Col xs={1}/>
                             <Col className = "d-flex justify-content-center">
-                                <FlowerCard img = {rose} name = {"Rosa"} dsc = {"This is a sample flower"}/>
+                                <FlowerCard img = {rose} name = {"Rosa"} dsc = {"This is a sample flower"} price = "$10"/>
                             </Col>
                         </Row>
                     </Col>

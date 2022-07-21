@@ -1,0 +1,16 @@
+
+.centerText{
+    text-align:center;
+}
+
+.infoRight{
+    width:27%;
+    float:right;
+    text-align:center;
+}
+
+.btnStyle{
+    width:40%;
+    display:flex;
+    
+}

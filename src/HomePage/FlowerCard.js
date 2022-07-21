@@ -1,7 +1,9 @@
+import {Link} from 'react-router-dom';
+
 import Card from 'react-bootstrap/card';
 import Button from 'react-bootstrap/button';
 
-export default function FlowerCard({img, name, dsc}) {
+export default function FlowerCard({img, name, dsc, price}) {
     return (
         <div className = "m-3">
             <Card style={{ width: '18rem' }}>
@@ -9,9 +11,12 @@ export default function FlowerCard({img, name, dsc}) {
                 <Card.Body>
                     <Card.Title className = "d-flex justify-content-center">{name}</Card.Title>
                     <Card.Text className = "d-flex justify-content-center">
-                        {dsc}
+                        {price}
                     </Card.Text>
-                    <Button className = "d-block m-auto" variant="success">See this flower</Button>
+                    <Link to = "/details" className = "text-decoration-none"  state = {{cardImg:img, cardName:name, cardDsc:dsc, cardPrice:price}}>
+                        <Button className = "d-block m-auto" variant="success">See this flower</Button>
+                    </Link>
+                    
                 </Card.Body>
             </Card>
         </div>

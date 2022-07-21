@@ -15,16 +15,17 @@ export default function Detail(){
 
     const location = useLocation();
     const {cardImg} = location.state;
-    
+    const {cardName} = location.state;
+    const {cardDsc} = location.state;
+    const {cardPrice} = location.state;
     return(
         <div>
-            <h5 className = "centerText py-2">Flower Information</h5>
+            <h4 className = "centerText py-2">Flower Information</h4>
             <Container className = "my-4">
                 <Row>
                     <Col xs = {1}></Col>
                     <Col xs = {9} className ="border"> 
-                        <DetailSplit left = {<ImageDetails cardImg = {cardImg}/>} right = {<InfoDetails />}/>
-                        
+                        <DetailSplit left = {<ImageDetails cardImg = {cardImg}/>} right = {<InfoDetails image = {cardImg} name = {cardName} dsc = {cardDsc} price = {cardPrice}/>}/>
                     </Col>
                     <Col xs = {2}>
                     </Col>
