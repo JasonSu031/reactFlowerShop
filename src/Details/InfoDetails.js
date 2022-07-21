@@ -26,7 +26,7 @@ export default function InfoDetails({image, name, dsc, price }) {
                 </Row>
                 <Row>
                     <Link to = "/wishlist" className = "text-decoration-none"  state = {{cardImg:image, cardName:name, cardDsc:dsc, cardPrice:price}}>
-                        <Button variant = "success" className = "btnStyle mx-auto d-block my-4">Add to WishList</Button>
+                        <Button variant = "success" className = "wishStyle mx-auto d-block my-4">Add to WishList</Button>
                     </Link>
                 </Row>
             </Container>

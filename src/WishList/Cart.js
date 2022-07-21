@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
+import ItemList from './ItemList';
+
 export default function Cart(){
     return(
         <div>
@@ -9,7 +11,7 @@ export default function Cart(){
                     <h4 className = "centerText py-3">This is your wishlist!</h4>
                 </Row>
                 <Row>
-                    
+                    <ItemList/>
                 </Row>
             </Container>
             

@@ -1,0 +1,21 @@
+.btnStyle{
+    width:20%;
+}
+
+.item{
+    width:100%;
+}
+
+.centerText{
+    text-align:center;
+}
+
+.active:hover{
+    color:green;
+}
+
+.buyBtn{
+    width:20%;
+    border-radius: 10px;
+}
+
