@@ -18,6 +18,7 @@ import Cart from '../Wishlist/Cart';
 import Login from '../Profile/Login';
 import SignUp from '../Profile/SignUp';
 import Detail from '../Details/Detail';
+import Success from '../Profile/Success';
 
 export default function Navigation() {
     return (
@@ -36,14 +37,15 @@ export default function Navigation() {
                 </Container>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="search" element={<Search />} />
-                    <Route path="design" element={<Design />} />
-                    <Route path="contact" element={<Contact />} />
-                    <Route path="cart" element={<Cart />} />
-                    <Route path="login" element={<Login />} />
-                    <Route path="signup" element={<SignUp/>} />
+                    <Route path="/search" element={<Search />} />
+                    <Route path="/design" element={<Design />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/cart" element={<Cart />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<SignUp/>} />
                     <Route path="/details" element={<Detail/>} />
                     <Route path="/wishlist" element={<Cart/>} />
+                    <Route path = "/success" element = {<Success/>}/>
                 </Routes>
             </Router>
         </div>
