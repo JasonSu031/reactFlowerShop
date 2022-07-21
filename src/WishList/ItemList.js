@@ -3,12 +3,10 @@ import {Link} from 'react-router-dom';
 
 import Item from './Item.js';
 
-export default function ItemList(){
+export default function ItemList({name, dsc, price}){
     return(
         <div>
-            <Item/>
-            <Item/>
-            <Item/>
+            <Item name = {name} dsc = {dsc} price = {price}/>
             <Link to = "/reactFlowerShop/success" className = "text-decoration-none" state = {{status:"Purchase"}}>
                 <Button variant = "success" className = "buyBtn mx-auto d-block mt-3">Buy</Button>
             </Link>
